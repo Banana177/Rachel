@@ -60,13 +60,13 @@ public:
         _power_init();
         _disp_init();
         _gamepad_init();
-        _spk_init();
+        // _spk_init();
         _i2c_init();
-        _rtc_init();
-        _imu_init();
+        // _rtc_init();
+        // _imu_init();
         _fs_init();
-        _sdcard_init();
-        _system_config_init();
+        // _sdcard_init();
+        // _system_config_init();
         _sum_up();
     }
 
