@@ -121,6 +121,9 @@ void HAL_Rachel::_sum_up()
         }
     }
 
+    spdlog::info("xxxxxxxxxxxxxxxxxxx");
+    Serial.println("bbbbbbbbbbbbbbbbb");
+
     HAL_LOG_INFO("hal init success!");
     HAL_LOG_INFO("starting mooncake");
     HAL_LOG_INFO("bye");

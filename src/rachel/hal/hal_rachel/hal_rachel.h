@@ -68,6 +68,10 @@ public:
         // _sdcard_init();
         // _system_config_init();
         _sum_up();
+
+        spdlog::info("咩啊");
+        spdlog::info("{} 启动", "原神");
+        Serial.println("bbbbbbbbbbbbbbbbb");
     }
 
     void reboot() override;
