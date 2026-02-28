@@ -31,6 +31,7 @@ public:
             cfg.pin_dc = HAL_PIN_LCD_DC;
             cfg.freq_write = 8000000;
             cfg.spi_3wire = false;
+            cfg.spi_mode = 3;
 
             _bus_instance.config(cfg);
             _panel_instance.setBus(&_bus_instance);
